@@ -3,8 +3,8 @@
 
 int main(void)
 {
-       int x = 9;   			              // 1001
-       int y = 10;     			       // 1010
+       int x = 9;   			                // 1001
+       int y = 10;             			  // 1010
 
 
        printf("비트 AND = %08X\n", x & y);		// 00001000
