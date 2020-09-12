@@ -1,3 +1,5 @@
+/* 아두이노에 연결되어있는 I2C 소자의 주소를 표시하는 프로그램 */
+
 #include <Wire.h>
 
 void setup(){
