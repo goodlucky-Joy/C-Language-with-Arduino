@@ -1,3 +1,5 @@
+/* BH1750 조도센서 활용 프로그램 */
+
 #include <Wire.h>
 #include <BH1750.h>
 
