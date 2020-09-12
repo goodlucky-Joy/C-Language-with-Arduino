@@ -1,4 +1,4 @@
-/* Exercise 3-10: 楷魂磊 快急 鉴困 抗力 */
+/* 鞐办偘鞛愳潣 鞖办劆靾滌渼 鞓堨牅 頂勲攴鸽灗 */
 #include <stdio.h>
 
 int main(void)
