@@ -1,3 +1,5 @@
+/* LED가 1개를 깜박이는 예제 프로그램 */
+
 void setup()
 {
   pinMode(13, OUTPUT);
