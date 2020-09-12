@@ -1,3 +1,5 @@
+/* APDS9960 컬러인식 센서를 사용하여 해당 물체의 RGB 값을 알려주는 프로그램 */
+
 #include <Wire.h>
 #include <APDS9960.h>
 
