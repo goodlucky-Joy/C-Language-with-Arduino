@@ -1,16 +1,16 @@
-/* pmc4_3: if ~ else ╧╝ ╫г╫ю */
+/* if ~ else К╛╦ Л▀╓Л┼╣ */
 #include <stdio.h>
 
 int main(void)
 {
     int number;
-    printf("а╓╪Ж╦╕ ют╥бго╫ц©ю:");
+    printf("Л═∙Л┬≤К╔╪ Л·┘К═╔М∙≤Л▀°Л≤╓:");
     scanf("%d", &number);
 
     if(number % 2 == 0)
-        printf("ют╥б╣х ╟╙ю╨ б╕╪Ж ют╢о╢ы.");
+        printf("Л·┘К═╔К░° Й╟▓Л²─ Л╖²Л┬≤ Л·┘К▀┬К▀╓.");
     else
-        printf("ют╥б╣х ╟╙ю╨ х╕╪Ж ют╢о╢ы.");
+        printf("Л·┘К═╔К░° Й╟▓Л²─ М≥─Л┬≤ Л·┘К▀┬К▀╓.");
 
     return 0;
 }
