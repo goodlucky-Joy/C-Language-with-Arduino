@@ -1,4 +1,5 @@
-//Arduino UART 통신 채팅프로그램
+/* 아두이노 두 대를 직렬로 연결하여 통신하는 채팅 프로그램 */
+/* SoftwareSerial 모듈을 사용해서 가상포트를 통해 직렬통신 */
 
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(10, 11); // (Rx, Tx)
