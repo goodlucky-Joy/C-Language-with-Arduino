@@ -1,6 +1,5 @@
 /* BH1750 조도센서로 입력받은 조도값을 OLED 디스플레이에 출력하는 프로그램 */
 
-#include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -23,22 +22,26 @@ void setup(){
 }
 
 void loop() {
+  // put your main code here, to run repeatedly:
+  displayIlluminance();
+  display.display();
+}
+
+void displayIlluminance(){
+  //Delay to allow sensor to stablize
+  delay(1000);
+  
+  //Read Illuminance
   float lux = lightMeter.readLightLevel();
-  Serial.print("Light: ");
+  Serial.print("Illuminance: ");
   Serial.print(lux);
   Serial.println(" lx");
 
-   // Clear the buffer.
+  // Clear the buffer.
   display.clearDisplay();
   display.display();
-
-  display.setTextSize(1);
-  display.setTextColor(WHITE);
+  
   display.setCursor(0,0);
-  display.println(“Light: ");
-  display.print(lux);
-  display.println(“lx");
-  display.display();
- 
-  delay(1000);
+  display.print("Illuminance: ");
+  display.println(lux);
 }
