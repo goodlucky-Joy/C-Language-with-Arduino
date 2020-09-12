@@ -1,11 +1,11 @@
-/* Exercise 3-13: ³í¸® ¿¬»êÀÚ ½Ç½À2 ¿¹Á¦ */
+/* ë…¼ë¦¬ ì—°ì‚°ì. ìœ¤ë…„ì„ êµ¬í•˜ëŠ” ì˜ˆì œ í”„ë¡œê·¸ë¨ */
 #include <stdio.h>
 
 int main(void)
 {
 	int year, result;
 
-	printf("¿¬µµ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì—°ë„ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &year);
 
 	result = ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
