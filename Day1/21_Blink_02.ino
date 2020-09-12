@@ -1,3 +1,5 @@
+/* LED 2개를 번갈아 깜박이는 예제 프로그램 */
+
 void setup()
 {
   pinMode(13, OUTPUT);
