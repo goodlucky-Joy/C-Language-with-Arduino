@@ -1,3 +1,5 @@
+/* DHT11 온습도 센서로 입력받은 온도와 습도값을 OLED 디스플레이에 출력하는 프로그램 */
+
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
