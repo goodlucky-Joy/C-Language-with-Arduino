@@ -1,4 +1,4 @@
-/* Exercise 5: 문자 출력 */
+/* 이스케이프 시퀀스 문자 출력 예제 프로그램 */
 #include <stdio.h>
 
 int main(void)
