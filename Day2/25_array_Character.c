@@ -1,0 +1,22 @@
+/* pmc7_1: 문자 배열을 선언하고 여기에 문자열을 저장하고 출력하는 프로그램 */
+#include <stdio.h>
+
+int main(void)
+{
+     int i;
+     char str[4];
+
+     str[0] = 'a';
+     str[1] = 'b';
+     str[2] = 'c';
+     str[3] = '\0';
+
+     i = 0;
+     while(str[i] != '\0')
+     {
+          printf("%c", str[i]);
+          i++;
+     }
+
+     return 0;
+}
