@@ -1,3 +1,5 @@
+/* 128x64 OLED에 Hello World를 출력하는 프로그램 */
+
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -22,7 +24,6 @@ void setup() {
   display.setTextColor(WHITE);
   display.setCursor(0,0);
   display.println("Hello World!");
-  display.println(“Hello NodeMCU!");
   display.display();
 
 }
