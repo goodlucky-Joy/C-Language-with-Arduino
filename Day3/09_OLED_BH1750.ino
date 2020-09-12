@@ -1,3 +1,5 @@
+/* BH1750 조도센서로 입력받은 조도값을 OLED에 출력하는 프로그램 */
+
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
