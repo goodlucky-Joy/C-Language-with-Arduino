@@ -1,3 +1,4 @@
+/* DHT11 온습도 센서를 이용해 온도아 습도를 측정하는 프로그램 */
 #include "DHT.h"
 #define DHTPIN 7
 #define DHTTYPE DHT11   // DHT 11
