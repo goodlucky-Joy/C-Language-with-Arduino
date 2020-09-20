@@ -1,4 +1,4 @@
-/* pmc4_18: do ~ while문을 이용한 구구단프로그램2 */
+/* do ~ while문을 이용한 구구단프로그램2 */
 #include <stdio.h>
 
 int main(void)
