@@ -1,13 +1,13 @@
-/* pmc7_10: Æ÷ÀÎÅÍ ¿¹Á¦ */
+/* í¬ì¸í„° ì˜ˆì œ */
 int main()
 {
      int i = 10;
      char c = 69;
      double f = 12.3;
 
-     printf("iÀÇ °ª: %u, iÀÇ ÁÖ¼Ò: %u\n", i, &i);
-     printf("cÀÇ °ª: %u, cÀÇ ÁÖ¼Ò: %u\n", c, &c);
-     printf("fÀÇ °ª: %u, fÀÇ ÁÖ¼Ò: %u\n", f, &f);
+     printf("iì˜ ê°’: %u, iì˜ ì£¼ì†Œ: %u\n", i, &i);
+     printf("cì˜ ê°’: %u, cì˜ ì£¼ì†Œ: %u\n", c, &c);
+     printf("fì˜ ê°’: %u, fì˜ ì£¼ì†Œ: %u\n", f, &f);
 
      return 0;
 }
