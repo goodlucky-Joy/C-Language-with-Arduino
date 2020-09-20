@@ -1,4 +1,4 @@
-/* pmc7_1: ¹®ÀÚ ¹è¿­À» ¼±¾ðÇÏ°í ¿©±â¿¡ ¹®ÀÚ¿­À» ÀúÀåÇÏ°í Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥ */
+/* ë¬¸ìž ë°°ì—´ì— ë¬¸ìžì—´ì„ ì €ìž¥í•˜ê³  ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ */
 #include <stdio.h>
 
 int main(void)
