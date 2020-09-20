@@ -1,4 +1,4 @@
-/* pmc4_19: ¼Ò¹®ÀÚ¸¦ ´ë¹®ÀÚ·Î º¯°æ */
+/* ì†Œë¬¸ìë¥¼ ëŒ€ë¬¸ìë¡œ ë³€ê²½í•˜ëŠ” í”„ë¡œê·¸ë¨ */
 #include <stdio.h>
 
 int main(void)
@@ -7,16 +7,16 @@ int main(void)
 
 	while(1)
 	{
-		printf("¼Ò¹®ÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
-		scanf(" %c", &letter);	// °ø¹é ¹®ÀÚ Á¦¿Ü
+		printf("ì†Œë¬¸ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
+		scanf(" %c", &letter);	// ê³µë°± ë¬¸ì ì œì™¸
 
 		if( letter == 'Q' )
 			break;
 		if( letter < 'a' || letter > 'z' )
 			continue;
 
-		letter -= 32;			// ¼Ò¹®ÀÚ -> ´ë¹®ÀÚ
-		printf("º¯È¯µÈ ´ë¹®ÀÚ´Â %cÀÔ´Ï´Ù.\n", letter);
+		letter -= 32;			// ì†Œë¬¸ì -> ëŒ€ë¬¸ì
+		printf("ë³€í™˜ëœ ëŒ€ë¬¸ìëŠ” %cì…ë‹ˆë‹¤.\n", letter);
 	}
 
 	return 0;
