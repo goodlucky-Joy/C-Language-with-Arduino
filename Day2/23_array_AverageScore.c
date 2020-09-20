@@ -1,4 +1,4 @@
-/* pmc6_2: ¼ºÀûÀ» ÀÔ·Â¹Þ¾Æ ¹è¿­¿¡ ÀúÀå ÈÄ Æò±ÕÀ» °è»êÇÏ´Â ÇÁ·Î±×·¥ */
+/* ì„±ì ì„ ìž…ë ¥ë°›ì•„ ë°°ì—´ì— ì €ìž¥ í›„ í‰ê· ì„ ê³„ì‚°í•˜ëŠ” í”„ë¡œê·¸ëž¨ */
 #include <stdio.h>
 #define SIZE 10
 
@@ -10,14 +10,14 @@ int main(void)
 
 	for(i = 0; i < SIZE; i++)
 	{
-		printf("%d¹øÂ° ÇÐ»ýµéÀÇ ¼ºÀûÀ» ÀÔ·ÂÇÏ½Ã¿À: ", i+1);
+		printf("%dë²ˆì§¸ í•™ìƒë“¤ì˜ ì„±ì ì„ ìž…ë ¥í•˜ì‹œì˜¤: ", i+1);
 		scanf("%d", &grade[i]);
 	}
 	for(i = 0; i < SIZE; i++)
 		sum += grade[i];
 
 	average = sum / SIZE;
-	printf("¼ºÀû Æò±Õ= %d\n", average);
+	printf("ì„±ì  í‰ê· = %d\n", average);
 
 	return 0;
 }
