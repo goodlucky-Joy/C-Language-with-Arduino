@@ -1,4 +1,4 @@
-/* pmc7_5: getchar()  */
+/* getchar()로 입력받은 문자를 putchar로 출력  */
 #include <stdio.h>
 
 int main(void)
