@@ -1,4 +1,4 @@
-/* pmc7_11: Æ÷ÀÎÅÍ º¯¼öÀÇ ¿¬°á */
+/* í¬ì¸í„° ì˜ˆì œ 2 */
 #include <stdio.h>
 
 int main(void)
@@ -8,12 +8,14 @@ int main(void)
      int *pi;
      double * pf;
 
-     printf("Before: pi = %u pf = %u \n", pi);
+	 printf("Before: &i = %u , &f = %u \n", &i, &f);
+     printf("Before: pi = %u , pf = %u \n\n", pi, pf);
 
      pi = &i;
      pf = &f;
-     printf("After: %u %u \n", pi, &i);
-     printf("After: %u %u \n", pf, &f);
+     printf("After: pi = %u , (&i = %u)\n", pi, &i);
+     printf("After: pf = %u , (&f = %u)\n", pf, &f);
+     
      return 0;
 }
 
