@@ -1,4 +1,4 @@
-/* pmc6_10: ÀÌÂ÷¿ø ¹è¿­ÀÇ ¿¹Á¦ */
+/* ì´ì°¨ì› ë°°ì—´ì„ ì´ìš©í•œ í•™ê¸‰ë³„ í‰ê·  ì„±ì  */
 #include <stdio.h>
 #define CLASSES  3
 #define STUDENTS 5
@@ -6,9 +6,9 @@
 int main(void)
 {
 	int s[CLASSES][STUDENTS] = {
-		{  0,  1,  2,  3,  4 },	// Ã¹¹øÂ° ÇàÀÇ ¿ø¼ÒµéÀÇ ÃÊ±â°ª
-		{ 10, 11, 12, 13, 14 },	// µÎ¹øÂ° ÇàÀÇ ¿ø¼ÒµéÀÇ ÃÊ±â°ª
-		{ 20, 21, 22, 23, 24 },	// ¼¼¹øÂ° ÇàÀÇ ¿ø¼ÒµéÀÇ ÃÊ±â°ª
+		{  0,  1,  2,  3,  4 },	// ì²«ë²ˆì§¸ í–‰ì˜ ì›ì†Œë“¤ì˜ ì´ˆê¸°ê°’
+		{ 10, 11, 12, 13, 14 },	// ë‘ë²ˆì§¸ í–‰ì˜ ì›ì†Œë“¤ì˜ ì´ˆê¸°ê°’
+		{ 20, 21, 22, 23, 24 },	// ì„¸ë²ˆì§¸ í–‰ì˜ ì›ì†Œë“¤ì˜ ì´ˆê¸°ê°’
 	};
 	int clas, student, total, subtotal;
 
@@ -18,11 +18,11 @@ int main(void)
 		subtotal = 0;
 		for(student = 0; student < STUDENTS; student++)
 			subtotal += s[clas][student];
-		printf("ÇĞ±Ş %dÀÇ Æò±Õ ¼ºÀû= %d\n", clas, subtotal / STUDENTS);
+		printf("í•™ê¸‰ %dì˜ í‰ê·  ì„±ì = %d\n", clas, subtotal / STUDENTS);
 		total += subtotal;
 	}
 
-	printf("ÀüÃ¼ ÇĞ»ıµéÀÇ Æò±Õ ¼ºÀû= %d\n", total/(CLASSES * STUDENTS));
+	printf("ì „ì²´ í•™ìƒë“¤ì˜ í‰ê·  ì„±ì = %d\n", total/(CLASSES * STUDENTS));
 
 	return 0;
 }
