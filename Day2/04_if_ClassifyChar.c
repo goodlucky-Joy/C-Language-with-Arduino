@@ -1,21 +1,21 @@
-/* pmc4_7: ���ڵ��� �з��ϴ� ���α׷�*/
+/* 문자를 대문자, 소문자, 숫자와 기타 문자로 분류하는 프로그램*/
 #include <stdio.h>
 
 int main(void)
 {
 	char ch;
 
-	printf("���ڸ� �Է��Ͻÿ�: ");
+	printf("문자를 입력하시오: ");
 	scanf("%c", &ch);
 
 	if( ch >= 'A' && ch <= 'Z' )
-		printf("%c�� �빮���Դϴ�.\n", ch);
+		printf("%c는 대문자입니다.\n", ch);
 	else if( ch >= 'a' && ch <= 'z' )
-		printf("%c�� �ҹ����Դϴ�.\n", ch);
+		printf("%c는 소문자입니다.\n", ch);
 	else if( ch >= '0' && ch <= '9' )
-		printf("%c�� �����Դϴ�.\n", ch);
+		printf("%c는 숫자입니다.\n", ch);
 	else
-		printf("%c�� ��Ÿ�����Դϴ�.\n", ch);
+		printf("%c는 기타문자입니다.\n", ch);
 
 	return 0;
 }
