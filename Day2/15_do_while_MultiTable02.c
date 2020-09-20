@@ -1,4 +1,4 @@
-/* pmc4_18: do ~ whileÀ» »ç¿ëÇÑ ±¸±¸´Ü ÇÁ·Î±×·¥2 */
+/* pmc4_18: do ~ whileë¬¸ì„ ì´ìš©í•œ êµ¬êµ¬ë‹¨í”„ë¡œê·¸ë¨2 */
 #include <stdio.h>
 
 int main(void)
@@ -13,10 +13,10 @@ int main(void)
 
 		do
 		{
-			printf("%d * %d = %d\n", i, j, i * j);
+			printf("%d * %d = %d\t", i, j, i * j);
 			j++;
 		} while (j <= 9);
-
+		printf("\n");
 	} while (i < 9);
 
 	return 0;
