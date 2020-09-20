@@ -1,23 +1,23 @@
-/* pmc4_6: ´ÙÁß if ¹® ½Ç½À */
+/* ë‹¤ì¤‘ if ë¬¸ ì‹¤ìŠµ */
 #include <stdio.h>
 
 int main(void)
 {
 	int score;
 
-	printf("¼ºÀûÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì„±ì ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &score);
 
 	if (score >= 90)
-		printf("ÇÕ°İ: ÇĞÁ¡A\n");
+		printf("í•©ê²©: í•™ì A\n");
 	else if (score >= 80)
-		printf("ÇÕ°İ: ÇĞÁ¡B\n");
+		printf("í•©ê²©: í•™ì B\n");
 	else if (score >= 70)
-		printf("ÇÕ°İ: ÇĞÁ¡C\n");
+		printf("í•©ê²©: í•™ì C\n");
 	else if (score >= 60)
-		printf("ÇÕ°İ: ÇĞÁ¡D\n");
+		printf("í•©ê²©: í•™ì D\n");
 	else
-		printf("ºÒÇÕ°İ: ÇĞÁ¡F\n");
+		printf("ë¶ˆí•©ê²©: í•™ì F\n");
 
 	return 0;
 }
