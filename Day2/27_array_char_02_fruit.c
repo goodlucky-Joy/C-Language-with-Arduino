@@ -1,4 +1,4 @@
-/* pmc7_9: ����ڷκ��� ���ڿ��� �Է¹޾Ƽ� 2���� �迭�� ���� �� ȭ�鿡 ����ϴ� ���α׷� */
+/* 사용자로부터 문자열을 입력받아서 2차원 배열에 저장 후 화면에 출력하는 프로그램 */
 #include <stdio.h>
 
 int main(void)
@@ -8,12 +8,12 @@ int main(void)
 
      for(i=0; i<3; i++)
      {
-          printf("���� �̸��� �Է��Ͻÿ�: ");
+          printf("과일 이름을 입력하시오: ");
           scanf("%s", fruits[i]);
      }
 
      for(i=0; i<3; i++)
-          printf("%d��° ����: %s \n", i, fruits[i]);
+          printf("%d번째 과일: %s \n", i, fruits[i]);
 
      return 0;
 }
