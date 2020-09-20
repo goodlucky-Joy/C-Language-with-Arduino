@@ -1,11 +1,11 @@
-/* pmc4_10: ´ŞÀÇ ÀÏ¼ö¸¦ °è»êÇÏ´Â ÇÁ·Î±×·¥*/
+/* ë‹¬ì˜ ì¼ìˆ˜ë¥¼ ê³„ì‚°í•˜ëŠ” í”„ë¡œê·¸ë¨ (í°ë‹¬, ì‘ì€ë‹¬) */
 #include <stdio.h>
 
 int main(void)
 {
 	int month, days;
 
-	printf("ÀÏ¼ö¸¦ ¾Ë°í ½ÍÀº ´ŞÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì¼ìˆ˜ë¥¼ ì•Œê³  ì‹¶ì€ ë‹¬ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &month);
 
 	switch(month)
@@ -23,6 +23,6 @@ int main(void)
 			days = 31;
 			break;
 	}
-	printf("%d¿ùÀÇ ÀÏ¼ö´Â %dÀÔ´Ï´Ù.\n", month, days);
+	printf("%dì›”ì˜ ì¼ìˆ˜ëŠ” %dì…ë‹ˆë‹¤.\n", month, days);
 	return 0;
 }
