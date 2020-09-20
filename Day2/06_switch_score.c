@@ -1,4 +1,4 @@
-/* pmc4_9: ¼ºÀû °è»ê ÇÁ·Î±×·¥*/
+/* switchë¬¸ì„ ì´ìš©í•œ ì„±ì  ê³„ì‚° í”„ë¡œê·¸ë¨*/
 #include <stdio.h>
 
 int main(void)
@@ -7,22 +7,22 @@ int main(void)
 	int iscore;
 	char grade;
 
-	printf("¼ºÀûÀ» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ì„±ì ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 	scanf("%d", &score);
 
 	iscore = score / 10;
 
 	switch(iscore)
 	{
-    case 10:
-    case 9: grade = 'A';    break;  // 90 ~ 100Àº A ÇĞÁ¡
-    case 8: grade = 'B';    break;  // 80 ~ 89´Â B ÇĞÁ¡
-    case 7: grade = 'C';    break;  // 70 ~ 79Àº C ÇĞÁ¡
-    case 6: grade = 'D';    break;  // 60 ~ 69Àº D ÇĞÁ¡
-    default: grade = 'F';    break;  // 59Á¡ ÀÌÇÏ´Â F ÇĞÁ¡
+	    case 10:
+	    case 9: grade = 'A';    break;  // 90 ~ 100ì€ A í•™ì 
+	    case 8: grade = 'B';    break;  // 80 ~ 89ëŠ” B í•™ì 
+	    case 7: grade = 'C';    break;  // 70 ~ 79ì€ C í•™ì 
+	    case 6: grade = 'D';    break;  // 60 ~ 69ì€ D í•™ì 
+	    default: grade = 'F';    break;  // 59ì  ì´í•˜ëŠ” F í•™ì 
 	}
 
-	printf("´ç½ÅÀÇ ÇĞÁ¡Àº %c ÀÔ´Ï´Ù.\n", grade);
+	printf("ë‹¹ì‹ ì˜ í•™ì ì€ %c ì…ë‹ˆë‹¤.\n", grade);
 
 	return 0;
 }
