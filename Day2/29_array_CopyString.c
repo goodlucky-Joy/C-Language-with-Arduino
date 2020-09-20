@@ -1,4 +1,4 @@
-/* pmc7_3: ÇÏ³ªÀÇ ¹®ÀÚ¿­¿¡ ÀúÀåµÈ ¹®ÀÚµéÀ» ´Ù¸¥ ¹®ÀÚ ¹è¿­·Î º¹»çÇÏ´Â ÇÁ·Î±×·¥  */
+/* í•˜ë‚˜ì˜ ë¬¸ìì—´ì— ì €ì¥ëœ ë¬¸ìë“¤ì„ ë‹¤ë¥¸ ë¬¸ì ë°°ì—´ë¡œ ë³µì‚¬í•˜ëŠ” í”„ë¡œê·¸ë¨  */
 #include <stdio.h>
 
 int main(void)
@@ -7,11 +7,11 @@ int main(void)
      char dst[100];
      int i;
 
-     printf("¿øº» ¹®ÀÚ¿­=%s\n", src);
+     printf("ì›ë³¸ ë¬¸ìì—´=%s\n", src);
      for(i=0; src[i] != NULL; i++)
           dst[i] = src[i];
      dst[i] = NULL;
-     printf("º¹»ç ¹®ÀÚ¿­=%s\n", dst);
+     printf("ë³µì‚¬ ë¬¸ìì—´=%s\n", dst);
 
      return 0;
 }
