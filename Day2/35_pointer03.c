@@ -1,4 +1,4 @@
-/* pmc7_12: & Ώ¬»κΐΪΏΝ  * Ώ¬»κΐΪ  */
+/* ν¬μΈν„° μμ  3  */
 #include <stdio.h>
 
 int main(void)
