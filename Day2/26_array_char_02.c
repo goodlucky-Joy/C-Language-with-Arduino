@@ -1,4 +1,4 @@
-/* pmc7_8: 2Â÷¿ø ¹®ÀÚ ¹è¿­À» »ý¼º ÈÄ ÃÊ±âÈ­ ÇÑ ´ÙÀ½, È­¸é¿¡ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥ */
+/* 2ì°¨ì› ë¬¸ìž ë°°ì—´ì— ë¬¸ìžì—´ì„ ì €ìž¥í•œ í›„ í™”ë©´ì— ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ */
 #include <stdio.h>
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
      };
 
      for(i=0; i<5; i++)
-          printf("%d¹øÂ°: %s \n", i, menu[i]);
+          printf("%dë²ˆì§¸: %s \n", i, menu[i]);
 
      return 0;
 }
