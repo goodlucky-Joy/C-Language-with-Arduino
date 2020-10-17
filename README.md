@@ -1,7 +1,6 @@
 # C-Language-with-Arduino
 Example C codes and Arduino Basic Concepts <br>
-(2020.09.23 ~ 2020.09.25)<br>
-by H.J. Kang<br><br>
+by Joy H. Kang<br><br>
 
 /Day1<br>
 01_HelloWorld.c<br>
@@ -29,27 +28,48 @@ by H.J. Kang<br><br>
 23_LED_Button_02.ino<br>
 24_Arduino_Serial_comm.ino<br>
 <br><br>
+
 /Day2<br>
-01_
-02_
-03_
-04_
-05_
-06_
-07_
-08_
-09_
-10_
-11_
-12_
-13_
-14_
-15_
-16_
-17_
-18_
-19_
+01_if_EvenOddNumber.c<br>
+02_if_else_EvenOddNumber.c<br>
+03_if_score.c<br>
+04_if_ClassifyChar.c<br>
+05_if_Calculator.c<br>
+06_switch_score.c<br>
+07_switch_DayOfMonth.c<br>
+08_switch_Calculator.c<br>
+09_for_sum.c<br>
+10_for_MultiTable01.c<br>
+11_for_MultiTable02.c<br>
+12_while_MultiTable01.c<br>
+13_while_MultiTable02.c<br>
+14_do_while_MultiTable01.c<br>
+15_do_while_MultiTable02.c<br>
+16_while_ChangeLetter.c<br>
+17_Potentiometer.ino<br>
+18_Potentiometer02.ino<br>
+19_CDS_Light.ino<br>
+20_CDS_Light02.ino<br>
+21_CDS_Light_Button.ino<br>
+22_arrary.c<br>
+23_array_AverageScore.c<br>
+24_array_AvarageScore02.c<br>
+25_array_Character.c<br>
+26_array_char_02.c<br>
+27_array_char_02_fruit.c<br>
+28_array_LengthOfString.c<br>
+29_array_CopyString.c<br>
+30_getchar_putchar.c<br>
+31__getch__putch.c<br>
+32_islower_toupper.c<br>
+33_pointer.c<br>
+34_pointer02.c<br>
+35_pointer03.c<br>
+36_.LedPWM.ino<br>
+37_LedPWM_Potentio.ino<br>
+38_MotorPWM_Potentio.ino<br>
 <br><br>
+
 /Day3<br>
 01_ClassSum_test.ino<br>
 02_ClassLed_test.ino<br>
