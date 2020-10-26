@@ -15,9 +15,7 @@ int main()
        printf("%d - %d = %d\n", x, y, result);
 
        result = x * y;		// 곱셈 연산
-
        printf("%d * %d = %d\n", x, y, result);
-
 
        result = x / y;		// 나눗셈 연산
        printf("%d / %d = %d\n", x, y, result);
