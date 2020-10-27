@@ -21,9 +21,9 @@ void loop() {
       Serial.println("LED ON");
       delay(10000);
       } 			
-
-      digitalWrite(led, LOW);	//LED Off
-      Serial.println("LED OFF");
+   }
+   digitalWrite(led, LOW);	//LED Off
+   Serial.println("LED OFF");
 
 }
  
