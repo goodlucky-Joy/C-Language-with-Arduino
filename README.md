@@ -2,7 +2,7 @@
 Example C codes and Arduino Basic Concepts <br>
 by Joy H. Kang<br><br>
 
-/Day1<br>
+/Chapter 1<br>
 01_HelloWorld.c<br>
 02_Blink.ino<br>
 03_StandardIO_00_SwapValue.c<br>
@@ -29,7 +29,7 @@ by Joy H. Kang<br><br>
 24_Arduino_Serial_comm.ino<br>
 <br><br>
 
-/Day2<br>
+/Chapter 2<br>
 01_if_EvenOddNumber.c<br>
 02_if_else_EvenOddNumber.c<br>
 03_if_score.c<br>
@@ -70,7 +70,7 @@ by Joy H. Kang<br><br>
 38_MotorPWM_Potentio.ino<br>
 <br><br>
 
-/Day3<br>
+/Chapter 3<br>
 01_ClassSum_test.ino<br>
 02_ClassLed_test.ino<br>
 /Led/Led.h<br>
